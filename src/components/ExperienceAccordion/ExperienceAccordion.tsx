@@ -51,10 +51,10 @@ const ExperienceAccordion: React.FC<ExperienceAccordionProps> = ({
         sm: "100%",
       }}
     >
-      <Accordion allowToggle>
+      <Accordion allowToggle defaultIndex={[0]}>
         {experience.sections.map((section, index) => {
           return (
-            <AccordionItem key={section.title}>
+            <AccordionItem key={section.title} >
               {({ isExpanded }) => (
                 <>
                   <h2>

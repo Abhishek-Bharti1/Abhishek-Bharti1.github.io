@@ -5,6 +5,7 @@ import ProjectIntro from "../../components/ProjectIntro/ProjectIntro";
 import Project from "../../components/Project/Project";
 import { keyframes } from "@emotion/react";
 import Reveal from "react-awesome-reveal";
+import { Element } from "react-scroll";
 
 const Upwards = keyframes`
 from {
@@ -20,32 +21,33 @@ to {
 
 const Projects = () => {
   return (
-    <div id="Projects">
-      <Reveal duration={2000} keyframes={Upwards}>
-        <ProjectIntro {...projectsHeader} />
-      </Reveal>
+    <Element name='/projects' >
+      <div id="Projects">
+        <Reveal duration={2000} keyframes={Upwards}>
+          <ProjectIntro {...projectsHeader} />
+        </Reveal>
 
-      <Flex w={{
-        base: "100%",
-        sm: "90%",
-        md: "800px",
-        lg: "1000px",
-        xl: "1100px",
-        "2xl": "1450px",
-      }}
-        justifyContent={"center"}
-        m={"auto"} flexWrap={"wrap"} gap={"20px"} h={"fit-content"} cursor={"pointer"} mt={{ base: "50px", sm: "80px" }}>
-        {project.data.map((item) => {
-          return <Project {...item} />;
-        })}
-      </Flex>
-      <br />
-      <br />
-      <Button onClick={() => window.open(seo.og.url, "_blank")} color={"white"} bg={"thistheme.text"}>
-        More Projects
-      </Button>
-    </div>
-  );
+        <Flex w={{
+          base: "100%",
+          sm: "90%",
+          md: "800px",
+          lg: "1000px",
+          xl: "1100px",
+          "2xl": "1450px",
+        }}
+          justifyContent={"center"}
+          m={"auto"} flexWrap={"wrap"} gap={"20px"} h={"fit-content"} cursor={"pointer"} mt={{ base: "50px", sm: "80px" }}>
+          {project.data.map((item) => {
+            return <Project {...item} />;
+          })}
+        </Flex>
+        <br />
+        <br />
+        <Button onClick={() => window.open(seo.og.url, "_blank")} color={"white"} bg={"thistheme.text"}>
+          More Projects
+        </Button>
+      </div>
+    </Element>);
 };
 
 export default Projects;

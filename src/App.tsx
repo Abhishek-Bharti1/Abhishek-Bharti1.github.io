@@ -13,7 +13,7 @@ import { Suspense } from 'react';
 import { appTheme } from './components/theme/theme';
 import Footer from './components/Footer/Footer';
 import TopButton from './components/TopButton/TopButton';
-import { HashRouter, Route, Routes } from "react-router-dom";
+// import { HashRouter, Route, Routes } from "react-router-dom";
 // import Experience from './PAGE/EXPERIENCE/Experience';
 import Reveal from 'react-awesome-reveal';
 import { keyframes } from "@emotion/react";
@@ -39,13 +39,9 @@ transform : translateY(0px)
 
 
 function App(): JSX.Element {
-
-
-
-
   return (
     <Box className="App" border={"1px"} overflowX={"hidden"} borderColor={"#edf9fe"} bg={"thistheme.background"} >
-      <HashRouter basename="/">
+      {/* <HashRouter basename="/">
         <Reveal duration={2000} keyframes={DownWardWith2000}>
           <Suspense>
 
@@ -62,11 +58,11 @@ function App(): JSX.Element {
           } />
           <Route path='/home' element={<Suspense><Home /></Suspense>} />
           <Route path='/education' element={<Suspense><Education /></Suspense>} />
-          {/* <Route path='/projects' element={
+          <Route path='/projects' element={
             <Suspense>
               <Projects />
             </Suspense>
-          } /> */}
+          } />
           <Route path='/Contact' element={
             <Suspense>
               <Contact />
@@ -84,7 +80,40 @@ function App(): JSX.Element {
 
 
 
-      </HashRouter>
+      </HashRouter> */}
+
+      {/* <Reveal duration={2000} keyframes={DownWardWith2000}> */}
+      <Suspense>
+        <Box sx={{
+          backgroundColor: "#edf9fe",
+          position: "fixed",
+          top: 0,
+          left: 0,
+          right: 0,
+          zIndex: 10,
+          boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px",
+          paddingY : 4
+
+        }}>
+          <Navbar />
+        </Box>
+      </Suspense >
+      {/* </Reveal> */}
+      < Suspense >
+        <Home />
+      </Suspense >
+      <Suspense>
+        <Education />
+      </Suspense>
+      <Suspense>
+        <Experience />
+      </Suspense>
+      <Suspense><Projects /></Suspense>
+      <Suspense>
+        <Contact />
+      </Suspense>
+      <Footer theme={appTheme} />
+      <TopButton theme={appTheme} />
     </Box >
   );
 }

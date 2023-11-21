@@ -146,7 +146,7 @@ const ExperienceCard: React.FC<ExperienceCardInterface> = ({
                     textAlign={{ base: "center", sm: "left" }}
 
                 >
-                    {experience.description}
+                    {experience.description?.split("/br")?.map((des_point) => <> {des_point} <br />  </>)}
                 </Text>
             </VStack>
         </HStack>

@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "Observant and detail oriented Full Stack Web Developer in MERN Stack. Self�motivated and curious with a keen interest in building user centric product. Looking forward to honing my skills in a challenging work environment.Apart, from coding, I love Travelling and Interacting with new people.",
   resumeLink:
-    "https://drive.google.com/file/d/1rCZ8Dvw30Zy94vu6MzflxSAxg1dxODkz/view?usp=sharing",
+    "https://drive.google.com/drive/folders/1rGK1__xP1vzQ3XaB5UgLDvkNKKxYYGiS?usp=sharing",
   portfolio_repository: "https://github.com/Deepumandal/MyProtfolio",
   githubProfile: "https://github.com/Abhishek-Bharti1",
 };
@@ -947,10 +947,10 @@ const experience = {
           company: "Honeysys It Service Pvt Ltd",
           company_url: "https://honeysys.com/",
           logo_path: "honebi.jpeg",
-          duration: "June 2023 - PRESENT",
-          location: "bangalore, karnataka",
+          duration: "January 2023 - November 2023",
+          location: "Bengaluru, India",
           description:
-            "I spearheaded optimization initiatives within a retail company, driving innovation through the development of new user interfaces and seamless API integrations. This involved creating efficient screens and integrating APIs to enhance operational workflows, resulting in improved functionality and streamlined processes for the retail operations.",
+            " Honeysys is an Indian IT service company for Retails Market, Ordering grocery and delivery platform, Founded in year 2019. /br  1.UI/UX Development: Designing and developing user interfaces for web applications, ensuring a seamless and intuitive user experience. /br 2.API Integration: Connecting the frontend of the application to backend services through APIs, handling data exchange and functionality implementation. /br 3.Code Implementation: Writing clean, efficient, and maintainable code using languages such as HTML, CSS, JavaScript, and potentially frameworks like React. /br 4.Optimization: Improving the performance and speed of the application by optimizing code, reducing load times, and enhancing user interactions. /br 5.Collaboration: Working closely with designers, backend developers, and other team members to ensure alignment with design mockups, data structures, and overall project goals.",
           color: "#0879bf",
         },
         // {
@@ -1090,16 +1090,17 @@ const project = {
   "data": [
     {
       "id": "M1DEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "React Webpack Starter",
+      "name": "Snapchat Clone",
       "createdAt": "2023-03",
-      "url": "https://github.com/deepumandal/react-webpack-configuration",
+      "url": "https://github.com/Abhishek-Bharti1/snapchat-clone",
       "description": [
-        "⚡It Serves educational resource for setting up your custum React application ",
-        "⚡It provides step-by-step guidance on configuring your React project and installing the necessary dependencies.",
-        "⚡React Webpack Starter utilizes technologies such as React, Babel, Webpack 5, and more. For a comprehensive view, we recommend checking out our GitHub repository "
+        "⚡This is Social media website where users can post pics with a caption as well as like other people posts as well user can delete his/her own posts.",
+        "⚡Login and Signup via the firebase Authentication system",
+        "⚡User can click pics and save it in database. ",
+        "⚡This was a solo project that was completed in 7 days. "
       ],
       "isFork": false,
-      "link": "https://deepumandal.github.io/react-webpack-configuration/",
+      "link": "https://snapchat-clone-f9bc5.web.app/",
       "languages": [
         {
           "name": "HTML",
@@ -1137,32 +1138,20 @@ const project = {
     },
     {
       "id": "M1DEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "Suger Cosmetic",
+      "name": "Burger App",
       "createdAt": "2023-03",
-      "url": "https://github.com/deepumandal/sugarcosmetic",
+      "url": "https://github.com/Abhishek-Bharti1/abhiburger",
       "description": [
-        "⚡It Serves educational resource for setting up your custum React application ",
-        "⚡It provides step-by-step guidance on configuring your React project and installing the necessary dependencies.",
-        "⚡React Webpack Starter utilizes technologies such as React, Babel, Webpack 5, and more. For a comprehensive view, we recommend checking out our GitHub repository "
+        "⚡This is Social media website where users can buy burgers put it in cart. It is solo project that was completed in 7 days.",
+        "⚡Login and Signup via the Google Oath2.0 Authentication system.",
+        "⚡User can put burgers in cart,login with google account."
       ],
       "isFork": false,
-      "link": "https://sugarcosmetucs.vercel.app/",
+      "link": "https://abhiburger.vercel.app/",
       "languages": [
         {
           "name": "HTML",
           "iconifyClass": "html.png"
-        },
-        {
-          "name": "Next Js",
-          "iconifyClass": "nextjs.png"
-        },
-        {
-          "name": "Google api's",
-          "iconifyClass": "googleapi.png"
-        },
-        {
-          "name": "fast two sms",
-          "iconifyClass": "fasttwosms.png"
         },
         {
           "name": "JavaScript",
@@ -1179,118 +1168,17 @@ const project = {
         },
 
         {
-          "name": "node mailer",
-          "iconifyClass": "nodemailer.png"
+          "name": "NodeJs",
+          "iconifyClass": "node.png"
+        },
+
+        {
+          "name": "ExpressJs",
+          "iconifyClass": "express.png"
         },
 
       ]
     },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "SHOP.COM",
-      "createdAt": "2022-04",
-      "url": "https://github.com/deepumandal/shop.com",
-      "description": [
-        "⚡SHOP . COM Marketplace offers great deals on clothes, beauty, health and nutrition, shoes, electronics, and more from over 1500 stores with one easy checkout.  ",
-        "⚡This is a collaboration project done by six members. The deadline for this project is one week  ",
-        "⚡  Tech used HTML5 and CSS3 & JAVASCRIPT "
-      ],
-      "isFork": false,
-      "link": "https://remarkable-klepon-b0037b.netlify.app/index.html",
-      "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "html.png"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "css.png"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "javascript.png"
-        },
-        {
-          "name": "Git",
-          "iconifyClass": "github.png"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNjkwNzUwMjM=",
-      "name": "Fitmeals",
-      "createdAt": "2022-05",
-      "url": "https://github.com/ashutosh1919/truvisory",
-      "description": [
-        "⚡Fitmeals is not a diet system that promotes cleanses, pills, preserved foods or any kind of disordered eating habits.  ",
-        "⚡This is a collaboration project done by six members. The deadline for this project is one week ",
-        "⚡ Tech used HTML 5, CSS 3 ,JAVASRIPT AND Jquery. "
-      ],
-      "isFork": false,
-      "link": "https://startling-croquembouche-7c4ba5.netlify.app/",
-      "languages": [
-        {
-          "name": "HTML 5",
-          "iconifyClass": "html.png"
-        },
-        {
-          "name": "CSS 3",
-          "iconifyClass": "css.png"
-        },
-        {
-          "name": " Advanced js ES6",
-          "iconifyClass": "javascript.png"
-        },
-        {
-          "name": "Git",
-          "iconifyClass": "github.png"
-        },
-        {
-          "name": "jQuery",
-          "iconifyClass": "jquery.png"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNzM1MTI1NTE=",
-      "name": "MODESENS",
-      "createdAt": "2022-06",
-      "url": "https://github.com/ashutosh1919/ml-data-bot",
-      "description": [
-        "⚡ModeSens is your digital shopping assistant dedicated to saving you time and money. With ModeSens , you can view a product's availability ",
-        "⚡This is a collaboration project done by six members. The deadline for this project is one week ",
-        "⚡Tech used REACTJS, REDUX ,REDUX-THUNK, REACT ROUTER DOM ,CLASSNAME",
-        "⚡ BOOTSTRAP , CHACKRA UI JSON-SERVER AS MOCK SERVER"
-      ],
-      "isFork": false,
-      "link": "https://magnificent-bublanina-64e24e.netlify.app/",
-      "languages": [
-        {
-          "name": "Reactjs",
-          "iconifyClass": "react.png"
-        },
-        {
-          "name": "Bootstrap 5",
-          "iconifyClass": "bootstrap.png"
-        },
-        {
-          "name": "Chackra ui",
-          "iconifyClass": "chakraui.png"
-        },
-        {
-          "name": "Git",
-          "iconifyClass": "github.png"
-        },
-        {
-          "name": "Material ui",
-          "iconifyClass": "materialui.png"
-        },
-        {
-          "name": "Json-Server",
-          "iconifyClass": "jsonserver.png"
-        }
-      ]
-    }
   ]
 }
 
@@ -1327,7 +1215,7 @@ export const pathNavigation = [
   { name: "Home", id: "Home", path: "/home", active: true },
   { name: "Education", id: "Education", path: "/education", active: true },
   { name: "Experience", id: "Experience", path: "/experience", active: true },
-  { name: "Projects", id: "Projects", path: "/projects", active: false },
+  { name: "Projects", id: "Projects", path: "/projects", active: true },
   { name: "Open Source", id: "Projects", path: "/projects", active: false },
   { name: "Contact Me", id: "Contact Me", path: "/contact", active: true },
 ];

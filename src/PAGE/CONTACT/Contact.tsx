@@ -5,6 +5,7 @@ import ContactIntro from '../../components/ContactIntro/ContactIntro'
 import { contactPageData } from '../../portfolio'
 import { keyframes } from "@emotion/react";
 import Reveal from 'react-awesome-reveal'
+import { Element } from 'react-scroll'
 
 const Upwards = keyframes`
 from {
@@ -25,18 +26,21 @@ const Contact = () => {
   }
   // console.log(about)
   return (
-    <div id='Contact Me'>
-      <Reveal duration={2000} keyframes={Upwards}>
-        <ContactIntro {...contactPageData.contactSection} />
-      </Reveal>
+    <Element name="/contact">
 
-      {/* <Reveal duration={2000} keyframes={Upwards}>
+
+      <div id='Contact Me'>
+        <Reveal duration={2000} keyframes={Upwards}>
+          <ContactIntro {...contactPageData.contactSection} />
+        </Reveal>
+
+        {/* <Reveal duration={2000} keyframes={Upwards}>
         <Blog {...contactPageData.blogSection} />
       </Reveal> */}
-      <Reveal duration={2000} keyframes={Upwards}>
-        <About  {...about} />
-      </Reveal>
-    </div>
+        <Reveal duration={2000} keyframes={Upwards}>
+          <About  {...about} />
+        </Reveal>
+      </div></Element>
   )
 }
 

@@ -1,19 +1,21 @@
+
 import { Box, Flex } from "@chakra-ui/react";
 import React from "react";
 import "./navbar.css";
 import NSwitch from "../NAV_SWITCH/NSwitch";
 // import { Fade } from "react-reveal";
-import { useLocation, useNavigate } from "react-router-dom";
+// import { useLocation, useNavigate } from "react-router-dom";
 import { pathNavigation } from "../../portfolio";
+import { Link } from "react-scroll";
 
 const Navbar: React.FC = () => {
-  const navigate = useNavigate();
-  const location = useLocation();
+  // const navigate = useNavigate();
+  // const location = useLocation();
   // if(location.pathname === "/") return <></> for future porpose 
   return (
     <Flex
       m={"auto"}
-      mt={"20px"}
+      // mt={"20px"}
       w={{
         base: "90%",
         sm: "90%",
@@ -42,16 +44,20 @@ const Navbar: React.FC = () => {
           &lt;{" "}
         </Box>
         <Box
-          onClick={() => {
-            navigate("/");
-          }}
+          // onClick={() => {
+          //   navigate("/");
+          // }}
           fontSize={{ base: "13px", sm: "54px" }}
           className="mercy"
         >
-          {/* Codding / */}
-          {" "}  Code First
-          {" "}
-          {/* <Image src={"./images/codingIsLife.png"} /> */}
+          <Link to="/home" spy={true}
+            smooth={true}
+            duration={500} >
+            {/* Codding / */}
+            {" "}  Code First
+            {" "}
+            {/* <Image src={"./images/codingIsLife.png"} /> */}
+          </Link>
         </Box>
 
         <Box fontSize={{ base: "13px", sm: "25px" }}
@@ -69,7 +75,8 @@ const Navbar: React.FC = () => {
           return (
             item.active && (
               <NSwitch
-                isActive={location.pathname === item.path}
+                // isActive={location.pathname === item.path}
+                isActive={true}
                 active={item.active}
                 path={item.path}
                 key={item.id}
