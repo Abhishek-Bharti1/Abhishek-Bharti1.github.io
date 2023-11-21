@@ -67,11 +67,11 @@ const Home: React.FC = () => {
             <br />
             <Tooltip label={"Feeling Proud"}>
               <Img
-                w={{ base: "80%", sm: "100%" }}
+                w={{ base: "60%", sm: "60%" }}
                 m={"auto"}
                 mt={"40px"}
-                src={`./images/greetings.png`}
-                alt={`./images/greetings.png`}
+                src={`https://avatars.githubusercontent.com/u/97494868?v=4`}
+                alt={`logo`}
               />
             </Tooltip>
             {/* </Fade> */}

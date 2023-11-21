@@ -20,10 +20,10 @@ const seo = {
 //Home Page
 const greeting = {
   title: "Abhishek Bharti",
-  logo_name: "Code-With-Avi",
-  nickname: "Code-With-Avi",
+  logo_name: "Full Stack Web Developer",
+  nickname: "Full Stack Web Developer",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Observant and detail oriented Full Stack Web Developer in MERN Stack. Self�motivated and curious with a keen interest in building user centric product. Looking forward to honing my skills in a challenging work environment.Apart, from coding, I love Travelling and Interacting with new people.",
   resumeLink:
     "https://drive.google.com/file/d/1rCZ8Dvw30Zy94vu6MzflxSAxg1dxODkz/view?usp=sharing",
   portfolio_repository: "https://github.com/Deepumandal/MyProtfolio",
