@@ -1,7 +1,7 @@
 // import React, { useEffect, useState } from 'react'
 // import { appTheme } from '../../components/theme/theme'
 // import "./Splash.css"
-// // import { Navigate } from "react-router";
+// import { Navigate } from "react-router-dom";
 
 
 // const Splash = () => {

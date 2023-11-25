@@ -24,7 +24,7 @@ const Greet: React.FC<GreetProps> = ({
     >
       {/* 50 */}
       <Text
-        fontSize={{ base: "30px", sm: "50px" }}
+        fontSize={{ base: "30px", sm: "33px", lg: "50px" }}
         lineHeight={{ base: "33px", sm: "55px" }}
         w={{ base: "70%", sm: "80%" }}
         m={"auto"}
@@ -60,8 +60,8 @@ const Greet: React.FC<GreetProps> = ({
         w={{ base: "fit-content", sm: "80%" }}
         m={"auto"}
         pt={{ sm: "20px", base: "0px" }}
-        fontSize={{ sm: "20px", base: "16px" }}
-        lineHeight={{ sm: "35px", base: "26px" }}
+        fontSize={{ sm: "18px", md: "20px", base: "16px" }}
+        lineHeight={{ sm: "25px", md: "35px", base: "26px" }}
         sx={{
           fontFamily: "'Open Sans', sans-serif",
           fontWeight: 500,

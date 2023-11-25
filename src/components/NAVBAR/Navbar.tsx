@@ -1,17 +1,22 @@
 
-import { Box, Flex } from "@chakra-ui/react";
+import { Box, Button, Flex } from "@chakra-ui/react";
 import React from "react";
 import "./navbar.css";
 import NSwitch from "../NAV_SWITCH/NSwitch";
+import { useMediaQuery } from '@chakra-ui/react'
 // import { Fade } from "react-reveal";
 // import { useLocation, useNavigate } from "react-router-dom";
 import { pathNavigation } from "../../portfolio";
 import { Link } from "react-scroll";
+import MobileNavbar from "../MobileNavbar";
 
 const Navbar: React.FC = () => {
   // const navigate = useNavigate();
   // const location = useLocation();
   // if(location.pathname === "/") return <></> for future porpose 
+  const [isMobileScreen] = useMediaQuery('(max-width: 444px)')
+
+
   return (
     <Flex
       m={"auto"}
@@ -67,26 +72,47 @@ const Navbar: React.FC = () => {
         </Box>
       </Flex>
 
+      {
+        isMobileScreen ? <MobileNavbar /> :
+          <Flex alignItems={"center"} justifyContent={"flex-end"} w={"70%"}>
 
-      <Flex alignItems={"center"} justifyContent={"flex-end"} w={"70%"}>
-
-        {pathNavigation.map((item) => {
-          console.log("item.path", item.path);
-          return (
-            item.active && (
-              <NSwitch
-                // isActive={location.pathname === item.path}
-                isActive={true}
-                active={item.active}
-                path={item.path}
-                key={item.id}
-                name={item.name}
-                id={item.id}
-              />
-            )
-          );
-        })}
-      </Flex>
+            {pathNavigation.map((item) => {
+              console.log("item.path", item.path);
+              return (
+                item.active && (
+                  <NSwitch
+                    // isActive={location.pathname === item.path}
+                    isActive={true}
+                    active={item.active}
+                    path={item.path}
+                    key={item.id}
+                    name={item.name}
+                    id={item.id}
+                  />
+                )
+              );
+            })}
+            <Button
+            
+              sx={{
+                target: "_blank"
+              }}
+              bg={"thistheme.text"}
+              color={"white"}
+              _hover={{
+                border: "1px ",
+                bg: "thistheme.background",
+                borderColor: "thistheme.text",
+                color: "thistheme.text",
+              }}
+              size={"md"}
+            >
+              <a target={"_blank"} rel="noreferrer" href="https://drive.google.com/drive/folders/1rGK1__xP1vzQ3XaB5UgLDvkNKKxYYGiS?usp=sharing">
+                See my resume
+              </a>
+            </Button>
+          </Flex>
+      }
     </Flex>
   );
 };

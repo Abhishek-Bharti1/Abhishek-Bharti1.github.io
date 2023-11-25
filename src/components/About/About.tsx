@@ -30,7 +30,7 @@ const About: React.FC<aboutProps> = ({
         }}
         gridTemplateAreas={{
           sm: ` " about image"   `,
-          base: ` "  " "about image"`,
+          base: ` " image" "about" `,
         }}
         gridTemplateColumns={{
           sm: "repeat(2,1fr)",
@@ -44,9 +44,9 @@ const About: React.FC<aboutProps> = ({
           base: "50px",
         }}
       >
-        <GridItem
+        <GridItem area={"image"}
           // border={"1px"}
-          area={"image"}
+
           width={{
             base: "100%",
           }}

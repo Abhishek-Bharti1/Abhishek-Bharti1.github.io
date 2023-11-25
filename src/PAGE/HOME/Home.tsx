@@ -37,7 +37,7 @@ const Home: React.FC = () => {
       <Box>
         <Reveal duration={2000} keyframes={Upwards}>
           <Grid
-          
+
             id={"Home"}
             height={{ base: "800px", sm: "600px" }}
             w={{
@@ -60,7 +60,10 @@ const Home: React.FC = () => {
            `,
             }}
             m={"auto"}
-            marginTop={"100px"}
+            marginTop={{
+              base: "100px",
+              md: "160px"
+            }}
           // border={"1px"}
           >
             <GridItem area={"greet"} h={{ sm: "450px" }}>
