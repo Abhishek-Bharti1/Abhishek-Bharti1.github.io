@@ -121,9 +121,9 @@ const ContactIntro: React.FC<ContactIntroProps> = ({ title, profile_image_path, 
             }}
             size={"md"}
             onClick={() => {
-              window.open("https://drive.google.com/file/d/1-1NB6z-L2vV_H3aDyNBGOD_tO0cJSck_/view?usp=drive_link", "_blank");
+              window.open("https://drive.google.com/file/d/1Ed3QC1wUNjKQS6HdP0nXgmggDRzHRZso/view?usp=drive_link", "_blank");
               setTimeout(() => {
-                  window.location.href = "https://drive.google.com/uc?export=download&id=1-1NB6z-L2vV_H3aDyNBGOD_tO0cJSck_";
+                  window.location.href = "https://drive.google.com/uc?export=download&id=1Ed3QC1wUNjKQS6HdP0nXgmggDRzHRZso";
               }, 500); 
           }}
           >
