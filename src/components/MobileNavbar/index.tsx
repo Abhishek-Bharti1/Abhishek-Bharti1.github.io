@@ -61,10 +61,14 @@ const MobileNavbar: React.FC = () => {
                                 color: "thistheme.text",
                             }}
                             size={"md"}
+                            onClick={() => {
+                                window.open("https://drive.google.com/file/d/1Ed3QC1wUNjKQS6HdP0nXgmggDRzHRZso/view?usp=drive_link", "_blank");
+                                setTimeout(() => {
+                                    window.location.href = "https://drive.google.com/uc?export=download&id=1Ed3QC1wUNjKQS6HdP0nXgmggDRzHRZso";
+                                }, 500); 
+                            }}
                         >
-                            <a target={"_blank"} rel="noreferrer" href="https://drive.google.com/drive/folders/1rGK1__xP1vzQ3XaB5UgLDvkNKKxYYGiS?usp=sharing">
-                                See my resume
-                            </a>
+                       See Resume
                         </Button>
                     </DrawerFooter>
                 </DrawerContent>
