@@ -1201,9 +1201,8 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "I'm originally from Kanpur, but I currently live in Balgore.",
+    subtitle: "I'm originally from Kanpur, but I currently live in Bangalure.",
     avatar_image_path: "address.png",
-    // location_map_link: "https://www.google.com/maps/@28.5006897,77.3152116,12z",
   },
   phoneSection: {
     name: "Phone Number",
