@@ -100,7 +100,7 @@ const Home: React.FC = () => {
                 colorScheme={"thistheme.text"}
               >
                 <a href={seo.og.url} rel="noreferrer" target={"_blank"}>
-                  ⭐ Star Me On Github
+                  ⭐ Star On Github
                 </a>
               </Button>
               {/* </Fade> */}

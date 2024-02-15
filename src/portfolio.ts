@@ -23,7 +23,8 @@ const greeting = {
   logo_name: "Full Stack Web Developer",
   nickname: "Full Stack Web Developer",
   subTitle:
-    "Observant and detail oriented Full Stack Web Developer in MERN Stack. Self�motivated and curious with a keen interest in building user centric product. Looking forward to honing my skills in a challenging work environment.Apart, from coding, I love Travelling and Interacting with new people.",
+"An observant and detail-oriented full-stack web developer proficient in the MERN stack. Demonstrates self-motivation and curiosity, with a keen interest in crafting user-centric products. Eager to refine skills in a challenging work environment. Outside of coding, enjoys traveling and engaging with new acquaintances."
+,
   resumeLink:
     "https://drive.google.com/drive/folders/1rGK1__xP1vzQ3XaB5UgLDvkNKKxYYGiS?usp=sharing",
   portfolio_repository: "https://github.com/Deepumandal/MyProtfolio",
@@ -730,14 +731,7 @@ const skills = {
 // Education Page
 const competitiveSites = {
   competitiveSites: [
-    // {
-    //   siteName: "LeetCode",
-    //   iconifyClassname: "leetcode.png",
-    //   style: {
-    //     color: "#2EC866",
-    //   },
-    //   profileLink: "https://leetcode.com/mercydsasolver/",
-    // },
+
     {
       siteName: "HackerRank",
       iconifyClassname: "hackerrank.png",
@@ -746,38 +740,7 @@ const competitiveSites = {
       },
       profileLink: "https://www.hackerrank.com/profile/abhishekbharti92",
     },
-    // {
-    //   siteName: "Codechef",
-    //   iconifyClassname: "codechef.png",
-    //   style: {
-    //     color: "#5B4638",
-    //   },
-    //   profileLink: "https://www.codechef.com/users/deepak_the_dsa",
-    // },
-    // {
-    //   siteName: "Codeforces",
-    //   iconifyClassname: "codeforce.png",
-    //   style: {
-    //     color: "#1F8ACB",
-    //   },
-    //   profileLink: "https://codeforces.com/profile/deepak.studentid2030",
-    // },
-    // {
-    //   siteName: "Hackerearth",
-    //   iconifyClassname: "hackerearth.png",
-    //   style: {
-    //     color: "#323754",
-    //   },
-    //   profileLink: "https://www.hackerearth.com/@ashutosh391",
-    // },
-    // {
-    //   siteName: "Kaggle",
-    //   iconifyClassname: "simple-icons:kaggle",
-    //   style: {
-    //     color: "#20BEFF",
-    //   },
-    //   profileLink: "https://www.kaggle.com/laymanbrother",
-    // },
+
   ],
 };
 
@@ -796,30 +759,14 @@ const degrees = {
       ],
       website_link: "https://masaischool.com/",
     }
-    // {
-    //   title: "chhatrapati shahu ji maharaj",
-    //   subtitle: "B.sc in Physics",
-    //   logo_path: "Amity_University_logo.png",
-    //   alt_name: "Amity University",
-    //   duration: "2023 - Present",
-    //   descriptions: ["⚡ I am currently Pursuing BCA from the Amity University Online"],
-    //   website_link: "https://amityonline.com/"
-    // },
+
   ],
 };
 
 const certifications = {
   isShow: false,
   certifications: [
-    // {
-    //   title: "TYPING TEST",
-    //   subtitle: " ",
-    //   logo_path: "typing.png",
-    //   certificate_link:
-    //     "https://www.typing.com/apiv1/student/tests/205645423/133385846/certificate?language=en",
-    //   alt_name: "Stanford University",
-    //   color_code: "#8C151599",
-    // },
+
     {
       title: "Fullstack WEB Development",
       subtitle: "",
@@ -829,105 +776,7 @@ const certifications = {
       alt_name: "MASAI SCHOOL",
       color_code: "#2A73CC",
     },
-    // {
-    //   title: "Advance Diploma In Information Technology",
-    //   subtitle: "",
-    //   logo_path: "jms.png",
-    //   certificate_link:
-    //     "https://drive.google.com/file/d/14FT8lxa4YvhgcpCFGcGtGa_lVDzr1mVX/view?usp=sharing",
-    //   alt_name: "JMS EDUCATION POINT",
-    //   color_code: "#2A73CC",
-    // },
-    // {
-    //   title: "Deep Learning",
-    //   subtitle: "- Andrew Ng",
-    //   logo_path: "deeplearning_ai_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-    //   alt_name: "deeplearning.ai",
-    //   color_code: "#00000099",
-    // },
-    // {
-    //   title: "ML on GCP",
-    //   subtitle: "- GCP Training",
-    //   logo_path: "google_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-    //   alt_name: "Google",
-    //   color_code: "#0C9D5899",
-    // },
-    // {
-    //   title: "Data Science",
-    //   subtitle: "- Alex Aklson",
-    //   logo_path: "ibm_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-    //   alt_name: "IBM",
-    //   color_code: "#1F70C199",
-    // },
-    // {
-    //   title: "Big Data",
-    //   subtitle: "- Kim Akers",
-    //   logo_path: "microsoft_logo.png",
-    //   certificate_link:
-    //     "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-    //   alt_name: "Microsoft",
-    //   color_code: "#D83B0199",
-    // },
-    // {
-    //   title: "Advanced Data Science",
-    //   subtitle: "- Romeo Kienzler",
-    //   logo_path: "ibm_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-    //   alt_name: "IBM",
-    //   color_code: "#1F70C199",
-    // },
-    // {
-    //   title: "Advanced ML on GCP",
-    //   subtitle: "- GCP Training",
-    //   logo_path: "google_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-    //   alt_name: "Google",
-    //   color_code: "#0C9D5899",
-    // },
-    // {
-    //   title: "DL on Tensorflow",
-    //   subtitle: "- Laurence Moroney",
-    //   logo_path: "deeplearning_ai_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-    //   alt_name: "deeplearning.ai",
-    //   color_code: "#00000099",
-    // },
-    // {
-    //   title: "Kuberenetes on GCP",
-    //   subtitle: "- Qwiklabs",
-    //   logo_path: "gcp_logo.png",
-    //   certificate_link:
-    //     "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-    //   alt_name: "GCP",
-    //   color_code: "#4285F499",
-    // },
-    // {
-    //   title: "Cryptography",
-    //   subtitle: "- Saurabh Mukhopadhyay",
-    //   logo_path: "nptel_logo.png",
-    //   certificate_link:
-    //     "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-    //   alt_name: "NPTEL",
-    //   color_code: "#FFBB0099",
-    // },
-    // {
-    //   title: "Cloud Architecture",
-    //   subtitle: "- Qwiklabs",
-    //   logo_path: "gcp_logo.png",
-    //   certificate_link:
-    //     "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-    //   alt_name: "GCP",
-    //   color_code: "#4285F499",
-    // },
+    
   ],
 };
 
@@ -936,7 +785,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Projects and SelfLearning",
   description:
-    "I've worked with startups, mainly in SDE roles in Product based Company's. I'm interested in exploring different fields in IT, related to newly required technology's",
+    "Experienced in SDE roles within product-based startups, with a strong background in software development. Keen on exploring diverse IT fields, particularly those involving emerging technologies.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -1073,7 +922,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "I create Full Stack Projects, deploying them as web apps with cloud tech. Prioritizing security and performance, I emphasize documentation, testing, and automation. Feedback-driven and organized, I'm dedicated to continuous learning for project excellence. ❣️",
+    "Creates full-stack projects and deploys them as web applications using cloud technology. Emphasizes security and performance, prioritizing documentation, testing, and automation. Feedback-driven and organized, dedicated to continuous learning for project excellence. ❣️",
   avatar_image_path: "projects.png",
 };
 
@@ -1190,7 +1039,7 @@ const contactPageData = {
     title: "Contact",
     profile_image_path: "https://avatars.githubusercontent.com/u/97494868?v=4",
     description:
-      "I'm dedicated to helping people become better through knowledge. I create lessons that are carefully designed to touch each person personally, so they can change and improve who they are. My main aim is to inspire long-lasting and meaningful changes in everyone who reads what I write.",
+      "Dedicated to empowering individuals through knowledge, creating lessons tailored to resonate with each person on a personal level, facilitating transformative growth and improvement. Focused on inspiring long-lasting and meaningful changes in every reader.",
   },
   blogSection: {
     title: "Blogs",
@@ -1201,7 +1050,7 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "I'm originally from Kanpur, but I currently live in Bangalure.",
+    subtitle: "Originally from Kanpur, currently residing in Bangalore.",
     avatar_image_path: "address.png",
   },
   phoneSection: {
