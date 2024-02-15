@@ -1187,7 +1187,7 @@ const project = {
 // Contact Page
 const contactPageData = {
   contactSection: {
-    title: "Contact Me",
+    title: "Contact",
     profile_image_path: "https://avatars.githubusercontent.com/u/97494868?v=4",
     description:
       "I'm dedicated to helping people become better through knowledge. I create lessons that are carefully designed to touch each person personally, so they can change and improve who they are. My main aim is to inspire long-lasting and meaningful changes in everyone who reads what I write.",
@@ -1217,7 +1217,7 @@ export const pathNavigation = [
   { name: "Experience", id: "Experience", path: "/experience", active: true },
   { name: "Projects", id: "Projects", path: "/projects", active: true },
   { name: "Open Source", id: "Projects", path: "/projects", active: false },
-  { name: "Contact Me", id: "Contact Me", path: "/contact", active: true },
+  { name: "Contact", id: "Contact Me", path: "/contact", active: true },
 ];
 
 

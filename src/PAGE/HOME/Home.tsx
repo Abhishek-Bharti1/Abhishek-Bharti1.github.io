@@ -120,7 +120,7 @@ const Home: React.FC = () => {
               }}
               color={"thistheme.text"}
             >
-              My Expertise
+            Skills
             </Heading>
           </Reveal>
           <Stack gap={"2rem"}>

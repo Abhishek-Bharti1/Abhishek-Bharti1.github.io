@@ -92,25 +92,29 @@ const Navbar: React.FC = () => {
                 )
               );
             })}
-            <Button
-            
-              sx={{
-                target: "_blank"
-              }}
-              bg={"thistheme.text"}
-              color={"white"}
-              _hover={{
-                border: "1px ",
-                bg: "thistheme.background",
-                borderColor: "thistheme.text",
-                color: "thistheme.text",
-              }}
-              size={"md"}
-            >
-              <a target={"_blank"} rel="noreferrer" href="https://drive.google.com/drive/folders/1rGK1__xP1vzQ3XaB5UgLDvkNKKxYYGiS?usp=sharing">
-                See my resume
-              </a>
-            </Button>
+               <Button
+            sx={{
+              target: "_blank"
+            }}
+            bg={"thistheme.text"}
+            color={"white"}
+            _hover={{
+              border: "1px ",
+              bg: "thistheme.background",
+              borderColor: "thistheme.text",
+              color: "thistheme.text",
+            }}
+            size={"md"}
+            onClick={() => {
+              window.open("https://drive.google.com/file/d/1-1NB6z-L2vV_H3aDyNBGOD_tO0cJSck_/view?usp=drive_link", "_blank");
+              setTimeout(() => {
+                  window.location.href = "https://drive.google.com/uc?export=download&id=1-1NB6z-L2vV_H3aDyNBGOD_tO0cJSck_";
+              }, 500); 
+          }}
+          >
+ 
+            See Resume
+          </Button>
           </Flex>
       }
     </Flex>
